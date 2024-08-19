@@ -2,8 +2,8 @@ from flask import Flask, render_template, request
 import pickle
 
 # Load the trained model and vectorizer from the pickle files
-model_path = r'D:\\PW Projects\\Spam-Classifier-NLP\\Model\\modelforPrediction.pkl'
-vectorizer_path = r'D:\\PW Projects\\Spam-Classifier-NLP\\Model\\vectorizer.pkl'
+model_path = r'Model/modelforPrediction.pkl'
+vectorizer_path = r'Model/vectorizer.pkl'
 
 with open(model_path, 'rb') as model_file:
     model = pickle.load(model_file)

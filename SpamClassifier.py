@@ -7,7 +7,7 @@ Created on Sun Aug 18 23:25:15 2024
 
 import pandas as pd
 # dataset: https://archive.ics.uci.edu/dataset/228/sms+spam+collection
-messages = pd.read_csv(r"D:\\PW Projects\\Spam-Classifier-NLP\\sms+spam+collection\\SMSSpamCollection",
+messages = pd.read_csv(r"sms+spam+collection/SMSSpamCollection",
                        sep='\t',names=["label", "message"])
 
 #Data cleaning and preprocessing
@@ -85,8 +85,8 @@ print("classification_report :", classification_report(y_test, y_pred))
 # The accuracy of BOW is more than TF-IDF
 
 import pickle
-with open(r'D:\\PW Projects\\Spam-Classifier-NLP\\Model\\modelforPrediction.pkl', 'wb') as file:
+with open(r'Model/modelforPrediction.pkl', 'wb') as file:
     pickle.dump(model_BOW, file)
 
-with open(r'D:\\PW Projects\\Spam-Classifier-NLP\\Model\\vectorizer.pkl', 'wb') as f:
+with open(r'Model/vectorizer.pkl', 'wb') as f:
     pickle.dump(cv, f)
