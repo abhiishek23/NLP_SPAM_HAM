@@ -70,15 +70,7 @@ The models are evaluated using accuracy, confusion matrix, and classification re
 
 ## Running the Project
 
-### 1. **Train the Model**
-
-Run the following script to preprocess data, train the model, and save it:
-
-```python
-python application.py
-```
-
-### 2. **Start the Flask Application**
+### 1. **Start the Flask Application**
 
 Run the Flask web application:
 
