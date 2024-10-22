@@ -82,5 +82,5 @@ Then, open your web browser and go to `http://127.0.0.1:5000/`.
 
 ## Author
 
-- **Sarthak Kalia**
-- **sarthakkalia45@gmail.com**
+- **Abhishek Singh**
+- **abhisinghbest30@gmail.com**
